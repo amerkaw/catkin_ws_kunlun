@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/eyas/catkin_ws_kulun/devel -DCMAKE_INSTALL_PREFIX=/home/eyas/catkin_ws_kulun/install -G Unix Makefiles
