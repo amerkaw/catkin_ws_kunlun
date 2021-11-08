@@ -30,7 +30,7 @@ class SimpleParkingManeuver:
             self.driving_maneuver_client.call(direction="backward", steering="right", distance=0.8)
             self.driving_maneuver_client.call(direction="backward", steering="straight", distance=1)
             self.driving_maneuver_client.call(direction="backward", steering="left", distance=0.8)
-            
+          
         else:
             return ParkingManeuverResponse(
                 "ERROR: Request can only be 'left' or 'right'")
